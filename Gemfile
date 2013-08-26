@@ -59,3 +59,9 @@ group :production do
   gem 'mysql2'
   gem 'rails_12factor', '0.0.2'
 end
+
+# Use unicorn as the app server
+gem 'unicorn'
+
+# Deploy with Capistrano
+gem 'capistrano'
