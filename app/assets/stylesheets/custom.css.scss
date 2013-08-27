@@ -1,4 +1,8 @@
 @import "bootstrap-responsive";
+
+$white : #FFFFFF;
+$base-red : #eb6864;
+
 body{padding-top:54px}
 
 /*Navbar tweaks*/
@@ -15,6 +19,17 @@ body{padding-top:54px}
 
 .signed_in_top{
 	font-size: 0.7em;
+}
+
+.col-header{
+	background : $base-red;
+	text-align: center;
+	padding: 5px 0;
+
+	h3{
+		margin : 0;
+		color: $white;
+	} 
 }
 
 
