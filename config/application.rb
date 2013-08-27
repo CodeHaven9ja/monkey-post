@@ -21,7 +21,7 @@ module MonkeyPost
     # config.i18n.default_locale = :de
 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
-    config.less.paths << File.join(Rails.root,'vendor','frameworks')
-    config.less.compress = false
+    #config.less.paths << File.join(Rails.root,'vendor','frameworks')
+    #config.less.compress = false
   end
 end
