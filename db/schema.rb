@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130827022802) do
+ActiveRecord::Schema.define(version: 20130827023634) do
+
+  create_table "clubs", force: true do |t|
+    t.string   "name"
+    t.string   "address"
+    t.integer  "stadium_id"
+    t.string   "img_url"
+    t.date     "established_on"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "fixtures", force: true do |t|
     t.integer  "home_club"
@@ -24,6 +34,17 @@ ActiveRecord::Schema.define(version: 20130827022802) do
     t.datetime "updated_at"
     t.integer  "home_score"
     t.integer  "away_score"
+  end
+
+  create_table "news", force: true do |t|
+    t.string   "title"
+    t.string   "content"
+    t.string   "img_url"
+    t.integer  "user_id"
+    t.integer  "category_id"
+    t.integer  "tag_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "users", force: true do |t|

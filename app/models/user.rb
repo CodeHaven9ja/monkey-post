@@ -24,6 +24,8 @@ class User < ActiveRecord::Base
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 
+         has_many :news
+         has_one :profile
 
 	#Accessible attributes
 

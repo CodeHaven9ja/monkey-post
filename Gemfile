@@ -15,6 +15,8 @@ gem 'twitter'
 gem 'jquery-fileupload-rails'
 gem 'devise'
 gem 'cancan'
+gem 'less-rails-bootstrap', github: 'metaskills/less-rails-bootstrap', ref: 'cbe20d4593e21297f7bc3bc6bc6471a7ad18e890'
+gem 'therubyracer'
 
 group :development, :test do
   gem 'mysql2'
