@@ -475,3 +475,31 @@ Processing by Devise::SessionsController#new as HTML
   Rendered /home/smith/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/devise-3.0.3/app/views/devise/shared/_links.erb (0.6ms)
   Rendered /home/smith/.rvm/gems/ruby-2.0.0-p247@railstutorial_rails_4_0/gems/devise-3.0.3/app/views/devise/sessions/new.html.erb within layouts/application (8.2ms)
 Completed 200 OK in 22ms (Views: 18.2ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreateFixtures (20130827021628)
+  [1m[35m (236.0ms)[0m  CREATE TABLE `fixtures` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `home_club` int(11), `away_club` int(11), `stadium_id` int(11), `referee_id` int(11), `competition_id` int(11), `fix_time` date, `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130827021628')
+  [1m[36m (96.5ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeFixtureDateToDateTime (20130827021842)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeFixtureDateToDateTime (20130827021842)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeFixtureDateToDateTime (20130827021842)
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to ChangeFixtureDateToDateTime (20130827021842)
+  [1m[35m (380.1ms)[0m  ALTER TABLE `fixtures` CHANGE `fix_time` `fix_time` datetime DEFAULT NULL
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20130827021842')
+  [1m[36m (95.1ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to AddScoresToFixture (20130827022802)
+  [1m[35m (352.2ms)[0m  ALTER TABLE `fixtures` ADD `home_score` int(11)
+  [1m[36m (343.8ms)[0m  [1mALTER TABLE `fixtures` ADD `away_score` int(11)[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20130827022802')[0m
+  [1m[35m (104.5ms)[0m  COMMIT
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m

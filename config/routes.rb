@@ -1,4 +1,10 @@
 MonkeyPost::Application.routes.draw do
+  resources :clubs
+
+  resources :news
+
+  resources :fixtures
+
   devise_for :users
   get "static_pages/home"
   get "static_pages/help"
