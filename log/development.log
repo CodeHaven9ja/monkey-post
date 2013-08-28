@@ -6042,3 +6042,511 @@ Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 00:26:1
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 00:26:14 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-28 21:48:36 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_shim.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (21.3ms)
+  Rendered layouts/_aside.html.erb (0.5ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1403ms (Views: 1401.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/clubs.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/fixtures.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootswatch.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/fixtures.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/clubs.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:38 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 21:48:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered layouts/_pageheader.html.erb (0.7ms)
+  Rendered static_pages/home.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_aside.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootswatch.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/fixtures.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/clubs.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/clubs.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/fixtures.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 22:03:30 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered layouts/_pageheader.html.erb (0.7ms)
+  Rendered layouts/_nplTable.html.erb (0.8ms)
+  Rendered static_pages/home.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_aside.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootswatch.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/fixtures.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/clubs.css?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-28 22:08:51 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/fixtures.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/clubs.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 22:09:11 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered layouts/_pageheader.html.erb (0.1ms)
+  Rendered layouts/_nplTable.html.erb (0.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.6ms)
+  Rendered layouts/_aside.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootswatch.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/clubs.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/fixtures.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:33 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/clubs.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/fixtures.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 22:11:50 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+Processing by StaticPagesController#home as HTML
+  Rendered layouts/_pageheader.html.erb (0.1ms)
+  Rendered layouts/_nplTable.html.erb (0.1ms)
+  Rendered static_pages/home.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered layouts/_aside.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms | Solr: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootswatch.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/fixtures.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/clubs.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/news.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-transition.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-affix.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-alert.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-button.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-modal.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:03 +0100
+
+
+Started GET "/assets/bootstrap-tab.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/bootstrap-popover.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/clubs.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/fixtures.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/news.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-08-28 22:13:11 +0100

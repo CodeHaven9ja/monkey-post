@@ -7,66 +7,22 @@
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <%= render 'layouts/shim' %>
 </head>
 <body>
 <div class="page-wrap">
 
   <!--Header-->
-
-  <header class="user-nav row-fluid navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <%= link_to "Monkey Post", root_path, :class=>"navbar-brand" %>
-      </div>
-      <div class="navbar-collapse collapse">
-
-        <ul id="primary-nav" class="nav navbar-nav">
-          <li class="dropdown open">
-            <a href="#" class="dropdown-toggle"></a>
-          </li>
-
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-
-        <nav id="user_nav" class="nav navbar-nav navbar-right visible-desktop visible-tablet">
-          <% if user_signed_in? %>
-            <p class="signed_in_top visible-desktop visible-tablet">Signed in as <%= current_user.email %>. Not you?
-            <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></p>
-          <% else %>
-            <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
-          <% end %>
-        </nav>
-      </div>
-    </div>
-  </header>
+  <%= render 'layouts/header' %>
   <div class="main-content container">
     <div class="row-fluid">
       <%= yield %>
     </div>
-    <aside>
-    </aside>
+    <!-- Aside -->
+    <%= render 'layouts/aside' %>
   </div> 
-  <footer>
-    <div class="container">
-      <div class="row footer-wrap">
-        <div class="col-lg-9">
-          <div class="row">
-            <div class="col-lg-2">
-              <h6><%= link_to "Monkey Post", root_path %></h6>
-            </div>
-            <div class="col-lg-5"></div>
-            <div class="col-lg-5"></div>
-          </div>
-          <div class="row copyright">
-            <p>© <%= copyright_notice_year_range(2012) %> <%= link_to "Monkey Post, INC.", root_path, :class=>"copyright" %>  All Rights Reserved. </p>
-          </div>
-        </div>
-        <div class="col-lg-3"></div>
-      </div>
-    </div>
-  </footer> 
+  <!-- Footer -->
+  <%= render 'layouts/footer' %>
 </div>
 </body>
 </html>
