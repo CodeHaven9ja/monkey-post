@@ -2,6 +2,7 @@
 
 $white : #FFFFFF;
 $base-red : #eb6864;
+$off-black :rgb(31, 14, 14);
 
 body{padding-top:54px}
 
@@ -32,4 +33,41 @@ body{padding-top:54px}
 	} 
 }
 
+/*Footer*/
+
+footer{
+
+	.footer-wrap{
+		padding: 20px 0 30px;
+	}
+
+	.copyright{
+		padding-left: 14px;
+		font-size: 10px;
+
+		a{
+			color : $white;
+
+			&:hover{
+				color : $off-black;
+				text-decoration : none;
+			}
+		}
+	}
+
+	padding : 20px 0 0;
+	background : $base-red;
+	color : $white;
+	h6{
+		a{
+			font-size : 1.5em;
+			color : $white;
+
+			&:hover{
+				color: $off-black;
+				text-decoration : none;
+			}
+		}
+	}
+}
 
