@@ -11,11 +11,4 @@ class StaticPagesController < ApplicationController
 
   def about
   end
-
-private
-
-	def use_https?
-	  false
-	end
-
 end
