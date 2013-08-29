@@ -19,9 +19,9 @@
         <nav id="user_nav" class="nav navbar-nav navbar-right visible-desktop visible-tablet">
           <% if user_signed_in? %>
             <p class="signed_in_top visible-desktop visible-tablet">Signed in as <%= current_user.email %>. Not you?
-            <%= link_to "Sign out", destroy_user_session_path(protocol: "https"), :method => :delete %></p>
+            <%= link_to "Sign out", destroy_user_session_path, :method => :delete %></p>
           <% else %>
-            <%= link_to "Sign up", new_user_registration_url(protocol: "https") %> or <%= link_to "sign in", new_user_session_url(protocol: "https") %>
+            <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "sign in", new_user_session_path %>
           <% end %>
         </nav>
       </div>
