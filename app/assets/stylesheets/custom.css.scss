@@ -6,7 +6,20 @@ $off-black :rgb(31, 14, 14);
 
 body{padding-top:54px}
 
+html,body{
+    height: 100%
+}
+
 /*Navbar tweaks*/
+
+.page-wrap{
+	min-height: 100%;
+}
+
+.main-content{
+	padding-bottom: 150px;
+	overflow: auto;
+}
 
 #user_nav{
 	
@@ -36,6 +49,11 @@ body{padding-top:54px}
 /*Footer*/
 
 footer{
+	position: relative;
+	margin-top: -150px; /* negative value of footer height */
+	height: 150px;
+	clear:both;
+	padding-top:20px;
 
 	.footer-wrap{
 		padding: 20px 0 30px;
