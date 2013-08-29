@@ -1,0 +1,46 @@
+<% provide(:title, 'Sign up') %>
+<div class="row">
+  <div class="span6 offset3">
+  	<div class="well signup_form">
+	  	<%= form_for @user, :html=>{:class=>"bs-example form-horizontal"} do |f| %>
+	  		<%= render 'shared/error_messages' %>
+	  		<fieldset>
+	  			<legend>Sign up</legend>
+
+	  			<div class="form-group">
+			  		<%= f.label :name, :class=>"col-lg-2 control-label" %>
+			  		<div class="col-lg-10">
+						<%= f.text_field :name, :class=>"form-control" %>
+					</div>
+				</div>	
+
+				<div class="form-group">
+					<%= f.label :email, :class=>"col-lg-2 control-label" %>
+					<div class="col-lg-10">
+						<%= f.text_field :email, :class=>"form-control" %>
+					</div>	
+				</div>	
+
+				<div class="form-group">
+					<%= f.label :password, :class=>"col-lg-2 control-label" %>
+					<div class="col-lg-10">
+						<%= f.password_field :password, :class=>"form-control" %>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<%= f.label :password_confirmation, "Confirmation", :class=>"col-lg-2 control-label"  %>
+					<div class="col-lg-10">
+						<%= f.password_field :password_confirmation, :class=>"form-control" %>
+					</div>	
+				</div>
+				<div class="form-group">
+					<div class="col-lg-10 col-lg-offset-2">
+						<%= f.submit "Create my account", class: "btn btn-large btn-primary" %>
+					</div>	
+				</div>					
+	  		</fieldset>
+	    <% end %>
+  	</div>   
+  </div>
+</div>
