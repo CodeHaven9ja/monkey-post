@@ -1,4 +1,5 @@
 MonkeyPost::Application.routes.draw do
+  devise_for :users
   get "users/new"
   resources :clubs
 
@@ -6,7 +7,6 @@ MonkeyPost::Application.routes.draw do
 
   resources :fixtures
 
-  resources :users
   match '/signup',  to: 'users#new', via: 'get'
 
   match '/help', to: 'static_pages#help', via: 'get'

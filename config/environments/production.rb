@@ -82,4 +82,6 @@ MonkeyPost::Application.configure do
   # and use secure cookies.
   config.force_ssl = true
 
+  config.action_mailer.default_url_options = { :host => 'monkeypost.tk' }
+
 end
