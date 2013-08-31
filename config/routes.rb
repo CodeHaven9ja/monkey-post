@@ -1,11 +1,19 @@
 MonkeyPost::Application.routes.draw do
+  resources :admins
+
+  get "admin/index"
+  get "admin/new"
+  get "admin/update"
+  get "admin/delete"
+  get "admin/show"
+  
   devise_for :users
-  get "users/new"
   resources :clubs
 
   resources :news
 
   resources :fixtures
+  resources :users
 
   match '/signup',  to: 'users#new', via: 'get'
 
