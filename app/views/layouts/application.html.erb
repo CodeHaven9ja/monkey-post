@@ -16,12 +16,14 @@
   <%= render 'layouts/header' %>
   <div class="main-content container">
     <div class="row-fluid">
-      <% flash.each do |key, value| %>
-        <div class="alert alert-dismissable alert-<%= key %>">
-          <button type="button" class="close" data-dismiss="alert">×</button>
-          <%= value %>
-        </div>
-      <% end %>
+      <div class="row">
+        <% flash.each do |key, value| %>
+          <div class="alert alert-dismissable alert-<%= key %> col-lg-5 offset3">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            <%= value %>
+          </div>
+        <% end %>  
+      </div>
       <%= yield %>
     </div>
     <!-- Aside -->
