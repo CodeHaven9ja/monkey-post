@@ -1,3 +1,3 @@
 //= require jquery
 //= require bootstrap
-//= require_directory ./admin
+//= require_tree ./admin
