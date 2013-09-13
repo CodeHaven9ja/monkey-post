@@ -1,7 +1,7 @@
 MonkeyPost::Application.routes.draw do
   devise_for :users
 
-  match 'auth/admin/dashboard', to: 'admins#show', via: 'get'
+  #match 'auth/admin/dashboard', to: 'admins#show', via: 'get'
 
   match '/signup',  to: 'users#new', via: 'get'
 
@@ -58,9 +58,10 @@ MonkeyPost::Application.routes.draw do
   #   resources :photos, concerns: :toggleable
 
   # Example resource route within a namespace:
-  #   namespace :admin do
+  namespace :admin do
   #     # Directs /admin/products/* to Admin::ProductsController
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
-  #   end
+  match 'auth/admin/dashboard', to: 'admins#show', via: 'get'
+  end
 end

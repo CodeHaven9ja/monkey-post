@@ -14,7 +14,9 @@ gem 'sunspot_rails'
 gem 'twitter'
 gem 'jquery-fileupload-rails'
 gem 'devise', '3.0.3'
-#gem 'cancan'
+gem 'cancan'
+gem 'newrelic_rpm'
+#gem "canard"
 #gem 'less-rails-bootstrap', github: 'metaskills/less-rails-bootstrap', ref: 'cbe20d4593e21297f7bc3bc6bc6471a7ad18e890'
 #gem 'therubyracer'
 
